@@ -5,10 +5,9 @@
 
 <div align="center">
   <img src="https://img.shields.io/github/go-mod/go-version/goEnum/goEnum?color=green">
-  <img src="https://img.shields.io/github/license/goEnum/goEnum?color=blue">
   <img src="https://img.shields.io/github/release/goEnum/goEnum.svg">
+  <img src="https://img.shields.io/github/license/goEnum/goEnum">
   <img src="https://img.shields.io/github/stars/goEnum/goEnum?color=yellow">
-  <img src="https://img.shields.io/website?url=https%3A%2F%2FgoEnum.com">
   <img src="https://img.shields.io/badge/nil-is%20goated-orange">
   <img src="https://img.shields.io/badge/built%20with-🤍-red">
 </div>
