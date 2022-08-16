@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/goEnum/goEnum/utilities"
+	"github.com/goEnum/goEnum/utilities/parameters"
 	"github.com/spf13/cobra"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/parameters"
 )
 
 var sshTmpfsModules = &cobra.Command{

@@ -1,7 +1,7 @@
 package CVE_2021_3156
 
 import (
-	"github.ibm.com/maxwell-ibm/goEnum/structs"
+	"github.com/goEnum/goEnum/structs"
 )
 
 var Module *structs.Module

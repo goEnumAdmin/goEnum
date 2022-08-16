@@ -8,9 +8,9 @@ import (
 	"os"
 	"strings"
 
+	"github.com/goEnum/goEnum/utilities"
+	"github.com/goEnum/goEnum/utilities/parameters"
 	"github.com/pkg/sftp"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/parameters"
 	"golang.org/x/crypto/ssh"
 )
 

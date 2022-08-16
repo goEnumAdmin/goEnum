@@ -1,18 +1,18 @@
 package modules
 
 import (
-	"github.ibm.com/maxwell-ibm/goEnum/modules/CVE_2021_3156"
-	"github.ibm.com/maxwell-ibm/goEnum/modules/container_block_devices"
-	"github.ibm.com/maxwell-ibm/goEnum/modules/cronjobs"
-	"github.ibm.com/maxwell-ibm/goEnum/modules/docker_socket"
-	"github.ibm.com/maxwell-ibm/goEnum/modules/privileged_container"
-	"github.ibm.com/maxwell-ibm/goEnum/modules/protected_files"
-	"github.ibm.com/maxwell-ibm/goEnum/modules/readable_files"
-	"github.ibm.com/maxwell-ibm/goEnum/modules/services"
-	"github.ibm.com/maxwell-ibm/goEnum/modules/special_permissions"
-	"github.ibm.com/maxwell-ibm/goEnum/modules/unquoted_service_path"
-	"github.ibm.com/maxwell-ibm/goEnum/modules/writable_files"
-	"github.ibm.com/maxwell-ibm/goEnum/structs"
+	"github.com/goEnum/goEnum/modules/CVE_2021_3156"
+	"github.com/goEnum/goEnum/modules/container_block_devices"
+	"github.com/goEnum/goEnum/modules/cronjobs"
+	"github.com/goEnum/goEnum/modules/docker_socket"
+	"github.com/goEnum/goEnum/modules/privileged_container"
+	"github.com/goEnum/goEnum/modules/protected_files"
+	"github.com/goEnum/goEnum/modules/readable_files"
+	"github.com/goEnum/goEnum/modules/services"
+	"github.com/goEnum/goEnum/modules/special_permissions"
+	"github.com/goEnum/goEnum/modules/unquoted_service_path"
+	"github.com/goEnum/goEnum/modules/writable_files"
+	"github.com/goEnum/goEnum/structs"
 )
 
 var (

@@ -1,7 +1,7 @@
 package readable_files
 
 import (
-	"github.ibm.com/maxwell-ibm/goEnum/structs"
+	"github.com/goEnum/goEnum/structs"
 )
 
 var Module *structs.Module

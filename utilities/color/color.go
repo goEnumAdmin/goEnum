@@ -5,7 +5,7 @@ import (
 	"io"
 	"runtime"
 
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/parameters"
+	"github.com/goEnum/goEnum/utilities/parameters"
 )
 
 type colorString string

@@ -3,7 +3,7 @@
 package utilities
 
 import (
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/permissions"
+	"github.com/goEnum/goEnum/utilities/permissions"
 	"os"
 	"strings"
 )
