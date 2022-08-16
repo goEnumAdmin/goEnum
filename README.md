@@ -4,13 +4,13 @@
 </h1>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/go-1.18-success">
-  <img src="https://img.shields.io/badge/license-BSD%203-blue">
-  <img src="https://img.shields.io/badge/version-1.0.0-yellow">
+  <img src="https://img.shields.io/github/go-mod/go-version/goEnum/goEnum?color=green">
+  <img src="https://img.shields.io/github/license/goEnum/goEnum?color=blue">
+  <img src="https://img.shields.io/github/release/goEnum/goEnum.svg">
+  <img src="https://img.shields.io/github/stars/goEnum/goEnum?color=yellow">
+  <img src="https://img.shields.io/website?url=https%3A%2F%2FgoEnum.com">
   <img src="https://img.shields.io/badge/nil-is%20goated-orange">
   <img src="https://img.shields.io/badge/built%20with-🤍-red">
-  <!-- <img src="https://img.shields.io/github/release/goEnum/goEnum.svg"> -->
-
 </div>
 
 
