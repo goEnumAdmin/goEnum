@@ -3,7 +3,7 @@ package systemInfo
 import (
 	"fmt"
 
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/color"
+	"github.com/goEnum/goEnum/utilities/color"
 )
 
 var (

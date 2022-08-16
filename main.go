@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.ibm.com/maxwell-ibm/goEnum/cmd"
+	"github.com/goEnum/goEnum/cmd"
 )
 
 func main() {

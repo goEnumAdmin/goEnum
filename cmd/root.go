@@ -7,9 +7,9 @@ import (
 	"os"
 	"sync"
 
+	"github.com/goEnum/goEnum/utilities/color"
+	"github.com/goEnum/goEnum/utilities/parameters"
 	"github.com/spf13/cobra"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/color"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/parameters"
 )
 
 var (

@@ -5,7 +5,7 @@ package docker_socket
 import (
 	"strings"
 
-	"github.ibm.com/maxwell-ibm/goEnum/utilities"
+	"github.com/goEnum/goEnum/utilities"
 )
 
 func Enumeration() ([]string, bool) {

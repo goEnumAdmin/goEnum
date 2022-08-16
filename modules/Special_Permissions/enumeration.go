@@ -5,8 +5,8 @@ package special_permissions
 import (
 	"fmt"
 
-	"github.ibm.com/maxwell-ibm/goEnum/utilities"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/permissions"
+	"github.com/goEnum/goEnum/utilities"
+	"github.com/goEnum/goEnum/utilities/permissions"
 )
 
 func Enumeration() ([]string, bool) {

@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/color"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/parameters"
+	"github.com/goEnum/goEnum/utilities/color"
+	"github.com/goEnum/goEnum/utilities/parameters"
 )
 
 func Parameters() string {

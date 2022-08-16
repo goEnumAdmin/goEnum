@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/goEnum/goEnum/utilities"
+	"github.com/goEnum/goEnum/utilities/color"
+	"github.com/goEnum/goEnum/utilities/parameters"
+	"github.com/goEnum/goEnum/utilities/remote"
 	"github.com/spf13/cobra"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/color"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/parameters"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/remote"
 )
 
 var sshTmpfs = &cobra.Command{

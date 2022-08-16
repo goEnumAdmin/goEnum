@@ -1,0 +1,693 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+
+# Make data base, printed on Tue Aug 16 14:10:18 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile (from `Makefile', line 13)
+OUTSUFFIX = ${GOOS}-${GOARCH}
+# makefile (from `Makefile', line 8)
+NPROC = $(shell sysctl -n hw.ncpu)
+# makefile
+CURDIR := /Users/max/go/goEnum-1
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 21)
+UNDERLINE = \033[4m
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+P9K_SSH = 0
+# environment
+VSCODE_CWD = /
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Applications/Wireshark.app/Contents/MacOS
+# makefile (from `Makefile', line 20)
+BOLD = \033[1m
+# environment
+GOPATH = /Users/max/go
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `Makefile', line 2)
+LDFLAGS = -X main.buildType=debug
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.xJUiQaVNVP/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /Users/max/go/goEnum-1
+# makefile (from `Makefile', line 26)
+GREY = \033[38;5;250m
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 24)
+GREEN = \033[38;5;118m
+# environment
+GOMODCACHE = /Users/max/go/pkg/mod
+# environment
+HOME = /Users/max
+# makefile (from `Makefile', line 6)
+GOARM = 
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/max/Library/Application Support/Code/CachedData/6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+LOGNAME = max
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = max
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/xl/dl__k2z53_b7b0j6fgjs2xz40000gn/T/
+# automatic
+*F = $(notdir $*)
+# makefile (from `Makefile', line 5)
+GOOS = $(shell go env GOOS)
+# environment
+VSCODE_IPC_HOOK = /Users/max/Library/Application Support/Code/1.70.1-main.sock
+# environment
+MallocNanoZone = 0
+# makefile (from `Makefile', line 25)
+RED = \033[38;5;196m
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.6878979.6878985
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# makefile (from `Makefile', line 1)
+BUILD = go build
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 3)
+DATE = $(shell date '+%s')
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 28)
+RESET = \033[m
+# makefile (from `Makefile', line 4)
+GOARCH = $(shell go env GOARCH)
+# makefile (from `Makefile', line 22)
+HEADER = ${BOLD}${UNDERLINE}
+# makefile (from `Makefile', line 16)
+OUT = $(shell pwd)/build/$(shell basename $(PWD))_${OUTSUFFIX}
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 45041
+# variable set hash-table stats:
+# Load=78/1024=8%, Rehash=0, Collisions=3/109=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777224, inode 6916716): 16 files, no impossibilities.
+
+# 16 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+5:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 203):
+	$(eval GOARM=5)
+	@:
+	
+
+6:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 200):
+	$(eval GOARM=6)
+	@:
+	
+
+7:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 197):
+	$(eval GOARM=7)
+	@:
+	
+
+ppc64:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 167):
+	$(eval GOARCH=ppc64)
+	@:
+	
+
+nacl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 147):
+	$(eval GOOS=nacl)
+	@:
+	
+
+arm64:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 206):
+	$(eval GOARCH=arm64)
+	@:
+	
+
+b: build
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+wasm:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 212):
+	$(eval GOARCH=wasm)
+	@:
+	
+
+d: deps
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+f: format
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  commands to execute (from `Makefile', line 32):
+	make -i aix ppc64 release build
+	make -i android 386 release build
+	make -i android amd64 release build
+	make -i android arm release build
+	make -i android arm64 release build
+	make -i darwin amd64 release build
+	make -i darwin arm64 release build
+	make -i dragonfly amd64 release build
+	make -i freebsd 386 release build
+	make -i freebsd amd64 release build
+	make -i freebsd arm release build
+	make -i freebsd arm64 release build
+	make -i illumos amd64 release build
+	make -i ios amd64 release build
+	make -i js wasm release build
+	make -i linux 386 release build
+	make -i linux amd64 release build
+	make -i linux arm release build
+	make -i linux arm64 release build
+	make -i linux mips release build
+	make -i linux mips64 release build
+	make -i linux mips64le release build
+	make -i linux mipsle release build
+	make -i linux ppc64 release build
+	make -i linux ppc64le release build
+	make -i linux riscv64 release build
+	make -i linux s390x release build
+	make -i netbsd 386 release build
+	make -i netbsd amd64 release build
+	make -i netbsd arm release build
+	make -i netbsd arm64 release build
+	make -i openbsd 386 release build
+	make -i openbsd amd64 release build
+	make -i openbsd arm release build
+	make -i openbsd arm64 release build
+	make -i openbsd mips64 release build
+	make -i plan9 386 release build
+ 
+	make -i plan9 amd64 release build
+	make -i plan9 arm release build
+	make -i solaris amd64 release build
+	make -i 386 windows release build
+	make -i amd64 windows release build
+	make -i arm windows release build
+	make -i arm64 windows release build
+	
+
+dependencies:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 85):
+	@printf "${GREEN}${HEADER}Downloading dependencies${RESET}\n"
+	go get ./...
+	
+
+t: test
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+netbsd:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 150):
+	$(eval GOOS=netbsd)
+	@:
+	
+
+windows:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 162):
+	$(eval GOOS=windows)
+	$(eval OUT=${OUT}.exe)
+	@:
+	
+
+freebsd:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 132):
+	$(eval GOOS=freebsd)
+	@:
+	
+
+riscv64:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 215):
+	$(eval GOARCH=riscv64)
+	@:
+	
+
+deps: dependencies
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+l: lint
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+plan9:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 156):
+	$(eval GOOS=plan9)
+	@:
+	
+
+format:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 90):
+	@printf "${GREEN}${HEADER}Formatting${RESET}\n"
+	go fmt ./...
+	
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-16 14:10:12
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+386:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 185):
+	$(eval GOARCH=386)
+	@:
+	
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 95):
+	@printf "${GREEN}${HEADER}Starting test suite${RESET}\n"
+	go test -parallel ${NPROC} ./...
+	
+
+build: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 107):
+	$(eval LDFLAGS=${LDFLAGS} -X main.buildVersion=${DATE})
+	@printf "${GREEN}${HEADER}Compiling for ${GOARCH}-${GOOS} to '${OUT}'${RESET}\n"
+	mkdir -p $(shell dirname ${OUT})
+	GOARM=${GOARM} GOARCH=${GOARCH} GOOS=${GOOS} ${BUILD} -p ${NPROC} -ldflags="${LDFLAGS}" -o ${OUT}
+	chmod +x ${OUT}
+	upx -9 ${OUT}
+	
+
+illumos:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 135):
+	$(eval GOOS=illumos)
+	@:
+	
+
+darwin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 126):
+	$(eval GOOS=darwin)
+	@:
+	
+
+arm:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 194):
+	$(eval GOARCH=arm)
+	@:
+	
+
+ppc64le:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 170):
+	$(eval GOARCH=ppc64le)
+	@:
+	
+
+solaris:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 159):
+	$(eval GOOS=solaris)
+	@:
+	
+
+mips64:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 179):
+	$(eval GOARCH=mips64)
+	@:
+	
+
+s390x:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 209):
+	$(eval GOARCH=s390x)
+	@:
+	
+
+release:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 99):
+	$(eval LDFLAGS=-w -s -X main.buildType=release)
+	@:
+	
+
+mips:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 173):
+	$(eval GOARCH=mips)
+	@:
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 103):
+	go run main.go
+	
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 115):
+	@printf "${GREEN}${HEADER}Cleaning previous build${RESET}\n"
+	rm -rf ${OUT}
+	
+
+openbsd:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 153):
+	$(eval GOOS=openbsd)
+	@:
+	
+
+android:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 123):
+	$(eval GOOS=android)
+	@:
+	
+
+dragonfly:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 129):
+	$(eval GOOS=dragonfly)
+	@:
+	
+
+linux:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 141):
+	$(eval GOOS=linux)
+	@:
+	
+
+lint:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 79):
+	@printf "${GREEN}${HEADER}Linting${RESET}\n"
+	go vet ./...
+	
+
+amd64:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 188):
+	$(eval GOARCH=amd64)
+	@:
+	
+
+aix:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 120):
+	$(eval GOOS=aix)
+	@:
+	
+
+js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 144):
+	$(eval GOOS=js)
+	@:
+	
+
+mipsle:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 176):
+	$(eval GOARCH=mipsle)
+	@:
+	
+
+amd64p32:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 191):
+	$(eval GOARCH=amd64p32)
+	@:
+	
+
+ios:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 138):
+	$(eval GOOS=ios)
+	@:
+	
+
+mips64le:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 182):
+	$(eval GOARCH=mips64le)
+	@:
+ 
+	
+
+# files hash-table stats:
+# Load=50/1024=5%, Rehash=0, Collisions=2/71=3%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Aug 16 14:10:18 2022
+
+ 

@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.ibm.com/maxwell-ibm/goEnum/structs"
+	"github.com/goEnum/goEnum/structs"
 )
 
 func exists(path string) bool {

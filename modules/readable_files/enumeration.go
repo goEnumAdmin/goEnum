@@ -5,9 +5,9 @@ package readable_files
 import (
 	"strings"
 
-	"github.ibm.com/maxwell-ibm/goEnum/utilities"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/permissions"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/systemInfo"
+	"github.com/goEnum/goEnum/utilities"
+	"github.com/goEnum/goEnum/utilities/permissions"
+	"github.com/goEnum/goEnum/utilities/systemInfo"
 )
 
 func Enumeration() ([]string, bool) {

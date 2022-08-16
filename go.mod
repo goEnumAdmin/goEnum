@@ -1,4 +1,4 @@
-module github.ibm.com/maxwell-ibm/goEnum
+module github.com/goEnum/goEnum
 
 go 1.18
 

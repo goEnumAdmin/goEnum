@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.ibm.com/maxwell-ibm/goEnum/structs"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/color"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/parameters"
+	"github.com/goEnum/goEnum/structs"
+	"github.com/goEnum/goEnum/utilities"
+	"github.com/goEnum/goEnum/utilities/color"
+	"github.com/goEnum/goEnum/utilities/parameters"
 	"golang.org/x/sys/windows/registry"
 )
 

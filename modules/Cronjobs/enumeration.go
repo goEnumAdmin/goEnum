@@ -3,7 +3,7 @@
 package cronjobs
 
 import (
-	"github.ibm.com/maxwell-ibm/goEnum/utilities"
+	"github.com/goEnum/goEnum/utilities"
 )
 
 func Enumeration() ([]string, bool) {

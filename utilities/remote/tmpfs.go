@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.ibm.com/maxwell-ibm/goEnum/utilities"
+	"github.com/goEnum/goEnum/utilities"
 )
 
 func (c *Connection) Tmpfs(function func(string) error) error {

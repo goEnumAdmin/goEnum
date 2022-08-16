@@ -7,8 +7,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.ibm.com/maxwell-ibm/goEnum/structs"
-	"github.ibm.com/maxwell-ibm/goEnum/utilities/color"
+	"github.com/goEnum/goEnum/structs"
+	"github.com/goEnum/goEnum/utilities/color"
 )
 
 func Whoami() *structs.Whoami {
