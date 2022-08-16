@@ -8,8 +8,9 @@
   <img src="https://img.shields.io/github/release/goEnum/goEnum.svg">
   <img src="https://img.shields.io/github/license/goEnum/goEnum">
   <img src="https://img.shields.io/github/stars/goEnum/goEnum?color=yellow">
-  <img src="https://img.shields.io/badge/nil-is%20goated-orange">
-  <img src="https://img.shields.io/badge/built%20with-🤍-red">
+  <img src="https://img.shields.io/github/contributors-anon/goEnum/goEnum">
+  <img src="https://img.shields.io/github/issues-raw/goEnum/goEnum">
+  <img src="https://img.shields.io/github/downloads/goEnum/goEnum/total">
 </div>
 
 
