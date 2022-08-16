@@ -46,7 +46,7 @@ func buildReportOutput(files []string) bytes.Buffer {
 		if parameters.Output != "" {
 			fmt.Fprintln(&report, "=== CVE-2021-315 ===")
 		} else {
-			color.Fprintln(color.Bold, &report, "=== CVE-2021-315 ===")
+			color.Fprintln(color.Bold, &report, "=== CVE-2021-3156 ===")
 		}
 
 		fmt.Fprintln(&report, "Description: Vulnerable version of sudo allowing for Heap-Based Buffer Overflow Privelege Escalation")
